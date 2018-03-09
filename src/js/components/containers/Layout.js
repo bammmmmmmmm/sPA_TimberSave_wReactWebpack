@@ -1,8 +1,7 @@
 import React, { Component } from "react";
-import ReactDOM from "react-dom";
 import FormContainer from "./FormContainer";
 
-class App extends Component {
+export default class Layout extends Component {
   constructor() {
     super();
   }
@@ -22,8 +21,3 @@ class App extends Component {
     );
   }
 }
-
-export default App;
-
-const wrapper = document.getElementById("app");
-wrapper ? ReactDOM.render(<App />, wrapper) : false;

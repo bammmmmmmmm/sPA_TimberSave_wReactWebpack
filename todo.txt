@@ -1,0 +1,7 @@
+In FormContainer we have both a state-based object
+&  an action... Rewire action to fire a custom Reducer
+& use Store with a MapStateToProps in FormContainer.
+Remember we need to wrap app in a Provider to wire this
+
+Really should fix the /js/app.js to hold the contents of
+.../js/components/containers/App.js
